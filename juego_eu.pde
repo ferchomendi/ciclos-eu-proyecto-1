@@ -3,11 +3,12 @@ void setup(){
 }
 int x;
 int y,sta;
+int p1,p2,p3,p4,p5,p6,p7,p8,p9,p10;
 
 void draw(){
  
   background(1001);
-  //line(X,Y,mouseX,mouseY);
+  line(mouseX,mouseY,pmouseX,pmouseY);
   
  pushStyle();
  strokeWeight (10);
@@ -40,6 +41,14 @@ void draw(){
  line(matri[8][0],matri[8][1],matri[8][2],matri[8][3]);
  }
  
+/*switch(p1) {
+  case 1: 
+  line (100,100,100,500);
+  break;
+  case 2:
+  line (100,100,500,100);
+  break;
+}*/
 
  
  
